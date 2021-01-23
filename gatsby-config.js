@@ -17,6 +17,13 @@ module.exports = {
         "gatsby-transformer-sharp",
         "gatsby-transformer-json",
         {
+            resolve: `gatsby-plugin-google-fonts`,
+            options: {
+                fonts: [`Poppins\:300,400,500,600,700,800`],
+                display: "swap",
+            },
+        },
+        {
             resolve: "gatsby-source-filesystem",
             options: {
                 name: "images",

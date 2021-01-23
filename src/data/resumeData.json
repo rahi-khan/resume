@@ -1,21 +1,21 @@
 {
-    "Name": "Rahi Khan",
-    "Location": "Dhaka, Bangladesh",
-    "Job": "Front-end Developer",
-    "Email": "rahikhan360@gmail.com",
-    "Phone": "+8801873146332",
-    "Github": "https://github.com/rahi-khan",
-    "Education": [
+    "name": "Rahi Khan",
+    "location": "Dhaka, Bangladesh",
+    "job": "Front-end Developer",
+    "email": "rahikhan360@gmail.com",
+    "phone": "+8801873146332",
+    "github": "https://github.com/rahi-khan",
+    "education": [
         {
             "School": "Rajuk Uttara Model College (2017 - 2020)",
             "Certificate": "High School Diploma in Science group"
         }
     ],
-    "Programming Languages": ["Javascript(ES6)", "HTML", "CSS", "SASS"],
-    "Libraries & Frameworks": ["React", "Gatsby", "Next", "Bootstrap", "TailwindCSS"],
-    "Tools & Platforms": ["Git & Github", "Firebase", "Netlify"],
-    "Design": ["Figma"],
-    "Projects": [
+    "programmingLanguages": ["Javascript(ES6)", "HTML", "CSS", "SASS"],
+    "librariesAndFrameworks": ["React", "Gatsby", "Next", "Bootstrap", "TailwindCSS"],
+    "toolsAndPlatforms": ["Git & Github", "Firebase", "Netlify"],
+    "design": ["Figma"],
+    "projects": [
         {
             "Name": "ASIT Official Website",
             "Demo": "http://web.asit.com.bd",
@@ -85,17 +85,30 @@
             "Repo": "https://github.com/rahi-khan/CIRC"
         }
     ],
-    "Experiences": [
+    "experiences": [
         {
-            "Name": "ASIT Official Website",
-            "Demo": "http://web.asit.com.bd",
-            "Repo": "https://github.com/rahi-khan/asit-website"
+            "company": "Advanced Software & IT Services LTD",
+            "jobTitle": "Freelance Contract",
+            "date": "5th - 17th Dec, 2020",
+
+            "jobDesc": [
+                "Developed the official website",
+                "Worked with a variety of different languages and frameworks such as Javascript, React, Bootstrap and a variety different libraries for development"
+            ],
+            "demo": "http://web.asit.com.bd",
+            "repo": "https://github.com/rahi-khan/asit-website"
         },
         {
-            "Name": "ASIT Docs Website",
-            "Demo": "https://docsite.netlify.app/#",
-            "Repo": "https://github.com/rahi-khan/doc_site"
+            "company": "Advanced Software & IT Services LTD",
+            "jobTitle": "Freelance Contract",
+            "date": "13th - 20th Aug, 2020",
+            "jobDesc": [
+                "Working on the official website from scratch",
+                "Used HTML, CSS, Javascript and SASS"
+            ],
+            "demo": "https://docsite.netlify.app",
+            "repo": "https://github.com/rahi-khan/doc_site"
         }
     ],
-    "Interests": ["Calesthenics", "Jogging", "Gaming", "Reading self-help books"]
+    "interests": ["Calesthenics", "Jogging", "Gaming", "Reading self-help books"]
 }
