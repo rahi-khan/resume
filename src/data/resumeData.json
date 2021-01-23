@@ -7,8 +7,9 @@
     "github": "https://github.com/rahi-khan",
     "education": [
         {
-            "School": "Rajuk Uttara Model College (2017 - 2020)",
-            "Certificate": "High School Diploma in Science group"
+            "school": "Rajuk Uttara Model College",
+            "date": "2017 - 2020",
+            "certificate": " Higher Secondary Certificate (HSC) in Science"
         }
     ],
     "skillset": [
@@ -124,5 +125,5 @@
             "repo": "https://github.com/rahi-khan/doc_site"
         }
     ],
-    "interests": ["Calesthenics", "Jogging", "Gaming", "Reading self-help books"]
+    "interests": ["Calesthenics, Jogging, Gaming, Reading self-help books"]
 }

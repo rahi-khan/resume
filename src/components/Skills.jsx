@@ -30,11 +30,10 @@ const Skills = () => {
 };
 
 //! styles
-const { skillsContainer, title, skillsBucket, jobDesc } = {
+const { skillsContainer, title, skillsBucket } = {
     skillsContainer: "flex flex-col space-y-4",
     title: "text-blue-500 text-xl font-bold tracking-wide",
     skillsBucket: "flex flex-col space-y-0.5",
-    jobDesc: "list-disc list-inside text-gray-600",
 };
 
 export default Skills;
