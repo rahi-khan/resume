@@ -1,10 +1,11 @@
 import React from "react";
+import Skills from "./Skills";
 
 const Right = () => {
     //! Render right sidebar UI
     return (
         <div className={right} style={{ border: "2px solid pink" }}>
-            right
+            <Skills />
         </div>
     );
 };

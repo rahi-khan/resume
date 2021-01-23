@@ -11,10 +11,24 @@
             "Certificate": "High School Diploma in Science group"
         }
     ],
-    "programmingLanguages": ["Javascript(ES6)", "HTML", "CSS", "SASS"],
-    "librariesAndFrameworks": ["React", "Gatsby", "Next", "Bootstrap", "TailwindCSS"],
-    "toolsAndPlatforms": ["Git & Github", "Firebase", "Netlify"],
-    "design": ["Figma"],
+    "skillset": [
+        {
+            "name": "Programming Languages",
+            "skills": "Javascript(ES6), HTML, CSS, SASS"
+        },
+        {
+            "name": "Libraries & Frameworks",
+            "skills": "React, Gatsby, Next, Bootstrap, TailwindCSS"
+        },
+        {
+            "name": "Tools & Platforms",
+            "skills": "Git & Github, Firebase, Netlify"
+        },
+        {
+            "name": "Design",
+            "skills": "Figma"
+        }
+    ],
     "projects": [
         {
             "Name": "ASIT Official Website",
