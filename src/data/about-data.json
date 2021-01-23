@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Bootstrap",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-image/?=gatsby-image"
+    },
+    {
+        "name": "React Icons",
+        "url": "https://react-icons.github.io/react-icons/"
+    },
+    {
+        "name": "React Bootstrap",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-image/?=gatsby-image"
+    },
+    {
+        "name": "Responsive Images",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-image/?=gatsby-image"
+    },
+    {
+        "name": "Automatic Sitemap",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/?=gatsby-plugin-sitemap"
+    },
+    {
+        "name": "SASS support for styling",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/?=gatsby-plugin-sass"
+    },
+    {
+        "name": "Generate a Manifest File",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest"
+    },
+    {
+        "name": "Markdown & MDX Support",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx/?=gatsby-plugin-mdx"
+    },
+    {
+        "name": "Enable Offline Functionality",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-plugin-offline/?=gatsby-plugin-offline"
+    },
+    {
+        "name": "Page Meta Tags with React Helmet",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet"
+    },
+    {
+        "name": "Gatsby source plugin for sourcing data from filesystem",
+        "url": "https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/?=gatsby-source-filesystem"
+    }
+]
