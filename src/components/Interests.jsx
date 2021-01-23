@@ -11,7 +11,7 @@ const Interests = () => {
         }
     `);
 
-    //! Render Skills UI
+    //! Render Interests UI
     return (
         <div className={interestsContainer} style={{ border: "2px solid #e05a07" }}>
             <h1 className={title}>Interests</h1>
