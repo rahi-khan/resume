@@ -1,10 +1,10 @@
 module.exports = {
     //! Site Meta Data
     siteMetadata: {
-        title: "Gatsby Tailwind Template Pro",
-        description: `A starter template for Gatsby.js projects`,
+        title: "Resume",
+        description: `Rahi Khan's Resume`,
         author: `Rahi Khan`,
-        siteUrl: `https://gatsby_tailwind_template_pro.gtsb.io/`,
+        siteUrl: `https://resume.rahikhan.vercel.com`,
     },
 
     //! External Gatsby Plugins
@@ -14,7 +14,6 @@ module.exports = {
         "gatsby-plugin-sharp",
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-sitemap",
-        "gatsby-plugin-mdx",
         "gatsby-transformer-sharp",
         "gatsby-transformer-json",
         {
@@ -46,15 +45,15 @@ module.exports = {
         {
             resolve: "gatsby-plugin-manifest",
             options: {
-                name: `Gatsby Tailwind Template Pro`,
-                short_name: `Gatsby Tailwind Template Pro`,
-                description: `A starter template for Gatsby.js projects`,
+                name: `Resume`,
+                short_name: `Resume`,
+                description: `Rahi Khan's Resume`,
                 lang: `en`,
                 start_url: `/`,
-                background_color: `#6b37bf`,
-                theme_color: `#6b37bf`,
+                background_color: `#ffffff`,
+                theme_color: `#ffffff`,
                 display: `standalone`,
-                icon: `./src/images/icon.png`,
+                icon: `./src/images/resume-icon.png`,
             },
         },
         "gatsby-plugin-offline",

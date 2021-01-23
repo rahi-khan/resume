@@ -1,0 +1,101 @@
+{
+    "Name": "Rahi Khan",
+    "Location": "Dhaka, Bangladesh",
+    "Job": "Front-end Developer",
+    "Email": "rahikhan360@gmail.com",
+    "Phone": "+8801873146332",
+    "Github": "https://github.com/rahi-khan",
+    "Education": [
+        {
+            "School": "Rajuk Uttara Model College (2017 - 2020)",
+            "Certificate": "High School Diploma in Science group"
+        }
+    ],
+    "Programming Languages": ["Javascript(ES6)", "HTML", "CSS", "SASS"],
+    "Libraries & Frameworks": ["React", "Gatsby", "Next", "Bootstrap", "TailwindCSS"],
+    "Tools & Platforms": ["Git & Github", "Firebase", "Netlify"],
+    "Design": ["Figma"],
+    "Projects": [
+        {
+            "Name": "ASIT Official Website",
+            "Demo": "http://web.asit.com.bd",
+            "Repo": "https://github.com/rahi-khan/asit-website"
+        },
+        {
+            "Name": "Edie Homepage",
+            "Demo": "https://edie-homepage69.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/edie_homepage-devchallenges.io"
+        },
+        {
+            "Name": "IT Logger",
+            "Repo": "https://github.com/rahi-khan/IT-Logger"
+        },
+        {
+            "Name": "NPX Business Card",
+            "Repo": "https://github.com/rahi-khan/npx_card"
+        },
+        {
+            "Name": "Global Average Temperature",
+            "Demo": "https://global-avg-temp.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/Global-Avg-Temp-Chart-App"
+        },
+        {
+            "Name": "Github Finder App",
+            "Demo": "https://github-finder-69.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/Github-Finder-App"
+        },
+        {
+            "Name": "Responsive Ecommerce Restaurant Website",
+            "Demo": "https://restaurant-website-69.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/Responsive-Ecommerce-Restaurant-Website"
+        },
+        {
+            "Name": "Tic Tac Toe",
+            "Demo": "https://stupid-tic-tac-toe.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/tic-tac-toe"
+        },
+        {
+            "Name": "Where Is The ISS",
+            "Demo": "https://whereistheissfool.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/whereIsTheISS"
+        },
+        {
+            "Name": "Rock Paper & Scissor",
+            "Demo": "https://stupidrockpaperscissorgame.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/RPS"
+        },
+        {
+            "Name": "Budget Monitoring App",
+            "Demo": "https://stupid-budgetapp.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/budget-app"
+        },
+        {
+            "Name": "Interior Consultant",
+            "Demo": "https://interior-consultant69.netlify.app/",
+            "Repo": "https://github.com/rahi-khan/interior_consultant-devchallenges.io"
+        },
+        {
+            "Name": "ASIT Docs Website",
+            "Demo": "https://docsite.netlify.app/#",
+            "Repo": "https://github.com/rahi-khan/doc_site"
+        },
+        {
+            "Name": "CIRC",
+            "Demo": "https://circ.vercel.app/",
+            "Repo": "https://github.com/rahi-khan/CIRC"
+        }
+    ],
+    "Experiences": [
+        {
+            "Name": "ASIT Official Website",
+            "Demo": "http://web.asit.com.bd",
+            "Repo": "https://github.com/rahi-khan/asit-website"
+        },
+        {
+            "Name": "ASIT Docs Website",
+            "Demo": "https://docsite.netlify.app/#",
+            "Repo": "https://github.com/rahi-khan/doc_site"
+        }
+    ],
+    "Interests": ["Calesthenics", "Jogging", "Gaming", "Reading self-help books"]
+}
