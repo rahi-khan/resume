@@ -8,7 +8,10 @@ import { FiGithub } from "react-icons/fi";
 const Header = () => {
     //! Render Header UI
     return (
-        <div className={headerContainer} style={{ border: "2px solid red" }}>
+        <div
+            className={headerContainer}
+            // style={{ border: "2px solid red" }}
+        >
             <h1 className={title}>Rahi Khan</h1>
 
             <h4 className={subtitle}>Front-End Developer</h4>

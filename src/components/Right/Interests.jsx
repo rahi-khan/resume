@@ -13,7 +13,10 @@ const Interests = () => {
 
     //! Render Interests UI
     return (
-        <div className={interestsContainer} style={{ border: "2px solid #e05a07" }}>
+        <div
+            className={interestsContainer}
+            // style={{ border: "2px solid #e05a07" }}
+        >
             <h1 className={title}>Interests</h1>
             <p className="text-gray-600">{data.dataJson.interests}</p>
         </div>

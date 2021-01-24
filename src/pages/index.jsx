@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import Left from "../components/Left";
-import Right from "../components/Right";
+import Left from "../components/Left/Left";
+import Right from "../components/Right/Right";
 import SEO from "../components/SEO/seo";
 
 const Index = () => (

@@ -5,7 +5,10 @@ import Projects from "./Projects";
 const Left = () => {
     //! Render left sidebar UI
     return (
-        <div className={left} style={{ border: "2px solid cyan" }}>
+        <div
+            className={left}
+            // style={{ border: "2px solid cyan" }}
+        >
             <Experiences />
             <Projects />
         </div>

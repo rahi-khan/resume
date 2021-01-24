@@ -18,7 +18,10 @@ const Experiences = () => {
 
     //! Render Experience UI
     return (
-        <div className={expContainer} style={{ border: "2px solid green" }}>
+        <div
+            className={expContainer}
+            // style={{ border: "2px solid green" }}
+        >
             <h1 className={title}>Relevant Experiences</h1>
 
             {data.dataJson.experiences.map(jobContainer => (

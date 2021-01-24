@@ -6,7 +6,10 @@ import Interests from "./Interests";
 const Right = () => {
     //! Render right sidebar UI
     return (
-        <div className={right} style={{ border: "2px solid pink" }}>
+        <div
+            className={right}
+            // style={{ border: "2px solid pink" }}
+        >
             <Skills />
             <Education />
             <Interests />

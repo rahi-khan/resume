@@ -17,7 +17,10 @@ const Education = () => {
 
     //! Render Education UI
     return (
-        <div className={eduContainer} style={{ border: "2px solid #e05a07" }}>
+        <div
+            className={eduContainer}
+            // style={{ border: "2px solid #e05a07" }}
+        >
             <h1 className={title}>Education</h1>
 
             {data.dataJson.education.map(arr => (

@@ -18,7 +18,10 @@ const Projects = () => {
 
     //! Render Projects UI
     return (
-        <div className={projectsContainer} style={{ border: "2px solid #e05a07" }}>
+        <div
+            className={projectsContainer}
+            // style={{ border: "2px solid #e05a07" }}
+        >
             <h1 className={title}>Top Projects</h1>
 
             {data.dataJson.projects.map(arr => (
