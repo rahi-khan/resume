@@ -23,7 +23,7 @@
         },
         {
             "name": "Tools & Platforms",
-            "skills": "Git & Github, Firebase, Netlify"
+            "skills": "Git & Github, Markdown, YAML, Firebase"
         },
         {
             "name": "Design",
@@ -35,83 +35,31 @@
             "name": "ASIT Official Website",
             "demo": "http://web.asit.com.bd",
             "repo": "https://github.com/rahi-khan/asit-website",
-            "desc": "lorem"
-        },
-        {
-            "name": "ASIT Docs Website",
-            "demo": "https://docsite.netlify.app/#",
-            "repo": "https://github.com/rahi-khan/doc_site",
-            "desc": "lorem"
-        },
-        {
-            "name": "Edie Homepage",
-            "demo": "https://edie-homepage69.netlify.app/",
-            "repo": "https://github.com/rahi-khan/edie_homepage-devchallenges.io",
-            "desc": "lorem"
-        },
-        {
-            "name": "NPX Business Card",
-            "repo": "https://github.com/rahi-khan/npx_card",
-            "desc": "lorem"
-        },
-        {
-            "name": "Global Average Temperature",
-            "demo": "https://global-avg-temp.netlify.app/",
-            "repo": "https://github.com/rahi-khan/Global-Avg-Temp-Chart-App",
-            "desc": "lorem"
-        },
-        {
-            "name": "IT Logger",
-            "repo": "https://github.com/rahi-khan/IT-Logger",
-            "desc": "lorem"
+            "desc": "Official website of ASIT for showcasing their products and services, built with React, Bootstrap"
         },
         {
             "name": "Github Finder App",
             "demo": "https://github-finder-69.netlify.app/",
             "repo": "https://github.com/rahi-khan/Github-Finder-App",
-            "desc": "lorem"
-        },
-        {
-            "name": "Responsive Ecommerce Restaurant Website",
-            "demo": "https://restaurant-website-69.netlify.app/",
-            "repo": "https://github.com/rahi-khan/Responsive-Ecommerce-Restaurant-Website",
-            "desc": "lorem"
-        },
-        {
-            "name": "Tic Tac Toe",
-            "demo": "https://stupid-tic-tac-toe.netlify.app/",
-            "repo": "https://github.com/rahi-khan/tic-tac-toe",
-            "desc": "lorem"
-        },
-        {
-            "name": "Where Is The ISS",
-            "demo": "https://whereistheissfool.netlify.app/",
-            "repo": "https://github.com/rahi-khan/whereIsTheISS",
-            "desc": "lorem"
-        },
-        {
-            "name": "Rock Paper & Scissor",
-            "demo": "https://stupidrockpaperscissorgame.netlify.app/",
-            "repo": "https://github.com/rahi-khan/RPS",
-            "desc": "lorem"
+            "desc": "Web app to display Github Users profile in an exclusive way, built with React and MaterializeCSS"
         },
         {
             "name": "Budget Monitoring App",
             "demo": "https://stupid-budgetapp.netlify.app/",
             "repo": "https://github.com/rahi-khan/budget-app",
-            "desc": "lorem"
+            "desc": "Simple app to keep track of income and expenses made with Javascript, HTML and CSS"
         },
         {
-            "name": "Interior Consultant",
-            "demo": "https://interior-consultant69.netlify.app/",
-            "repo": "https://github.com/rahi-khan/interior_consultant-devchallenges.io",
-            "desc": "lorem"
+            "name": "Global Average Temperature",
+            "demo": "https://global-avg-temp.netlify.app/",
+            "repo": "https://github.com/rahi-khan/Global-Avg-Temp-Chart-App",
+            "desc": "Web app to display the Global Average Temperature using an official public API from NASA, built with React and Bootstrap"
         },
         {
-            "name": "CIRC",
-            "demo": "https://circ.vercel.app/",
-            "repo": "https://github.com/rahi-khan/CIRC",
-            "desc": "lorem"
+            "name": "Edie Homepage",
+            "demo": "https://edie-homepage69.netlify.app/",
+            "repo": "https://github.com/rahi-khan/edie_homepage-devchallenges.io",
+            "desc": "A simple homepage UI built with Gatsby.js and TailwindCSS"
         }
     ],
     "experiences": [

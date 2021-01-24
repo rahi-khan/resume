@@ -19,12 +19,12 @@ const Projects = () => {
     //! Render Projects UI
     return (
         <div className={projectsContainer} style={{ border: "2px solid #e05a07" }}>
-            <h1 className={title}>Projects</h1>
+            <h1 className={title}>Top Projects</h1>
 
             {data.dataJson.projects.map(arr => (
                 <div className={projectsBucket}>
                     <h1 className="font-semibold text-base text-gray-900">{arr.name}</h1>
-                    {/* <p className="text-gray-600 text-sm">{arr.skills}</p> */}
+                    <h1 className="font-semibold text-base text-gray-600">{arr.desc}</h1>
                 </div>
             ))}
         </div>
