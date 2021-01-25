@@ -11,6 +11,7 @@ const Experiences = () => {
                     jobTitle
                     date
                     jobDesc
+                    url
                 }
             }
         }
@@ -25,7 +26,9 @@ const Experiences = () => {
                 <div className={job}>
                     <h1>
                         <span className={jobTitle}>{jobContainer.jobTitle}</span>
-                        <span className={company}> @ {jobContainer.company}</span>
+                        <a href={jobContainer.url} target="_blank" rel="noreferrer">
+                            <span className={company}> @ {jobContainer.company}</span>
+                        </a>
                     </h1>
 
                     <h2 className={date}>{jobContainer.date}</h2>

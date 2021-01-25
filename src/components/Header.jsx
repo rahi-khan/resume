@@ -82,7 +82,7 @@ const { contactNav, navItem, title, subtitle, contacts, headerContainer } = {
     subtitle: "text-2xl font-semibold text-gray-800",
     contactNav:
         "flex flex-col md:flex-row md:justify-between md:items-center space-y-2 md:space-y-0",
-    navItem: "flex items-center text-gray-700 hover:text-gray-900",
+    navItem: "flex items-center text-gray-600 hover:text-black duration-150",
     contacts: "md:ml-1",
 };
 

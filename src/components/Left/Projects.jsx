@@ -23,7 +23,9 @@ const Projects = () => {
 
             {data.dataJson.projects.map(arr => (
                 <div className={projectsBucket}>
-                    <h1 className="text-gray-800 font-bold text-lg">{arr.name}</h1>
+                    <a href={arr.repo} target="_blank" rel="noreferrer">
+                        <h1 className="text-gray-800 font-bold text-lg">{arr.name}</h1>
+                    </a>
                     <h1 className="text-gray-600 text-sm">{arr.desc}</h1>
                 </div>
             ))}

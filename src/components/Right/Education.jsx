@@ -10,6 +10,7 @@ const Education = () => {
                     school
                     date
                     certificate
+                    url
                 }
             }
         }
@@ -22,7 +23,9 @@ const Education = () => {
 
             {data.dataJson.education.map(arr => (
                 <div className={eduBucket}>
-                    <h1 className="text-gray-800 font-bold text-lg">{arr.school}</h1>
+                    <a href={arr.url} target="_blank" rel="noreferrer">
+                        <h1 className="text-gray-800 font-bold text-lg">{arr.school}</h1>
+                    </a>
                     <h2 className="text-gray-600 text-base font-semibold">{arr.date}</h2>
                     <p className="text-gray-600 text-sm">{arr.certificate}</p>
                 </div>

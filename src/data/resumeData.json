@@ -10,7 +10,8 @@
         {
             "school": "Rajuk Uttara Model College",
             "date": "2017 - 2020",
-            "certificate": " Higher Secondary Certificate (HSC) in Science"
+            "certificate": " Higher Secondary Certificate (HSC) in Science",
+            "url": "https://rajukcollege.net/"
         }
     ],
     "skillset": [
@@ -73,6 +74,7 @@
                 "Developed the official website",
                 "Worked with a variety of different languages and frameworks such as Javascript, React, Bootstrap and a variety different libraries for development and Figma for mockup"
             ],
+            "url": "http://web.asit.com.bd",
             "demo": "http://web.asit.com.bd",
             "repo": "https://github.com/rahi-khan/asit-website"
         },
@@ -84,6 +86,7 @@
                 "Worked on the documentation website",
                 "Used HTML, CSS, Javascript, SASS and Figma for mockup"
             ],
+            "url": "http://web.asit.com.bd",
             "demo": "https://docsite.netlify.app",
             "repo": "https://github.com/rahi-khan/doc_site"
         }
