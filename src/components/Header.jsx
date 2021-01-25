@@ -77,12 +77,12 @@ const Header = () => {
 
 //! styles
 const { contactNav, navItem, title, subtitle, contacts, headerContainer } = {
-    headerContainer: "flex flex-col space-y-3",
-    title: "text-blue-500 text-7xl font-bold tracking-wide",
+    headerContainer: "flex flex-col space-y-4 md:space-y-3",
+    title: "text-blue-500 text-5xl md:text-7xl font-bold tracking-wide",
     subtitle: "text-2xl font-semibold text-gray-800",
-    contactNav: "flex space-x-8",
+    contactNav: "flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-8",
     navItem: "flex items-center text-gray-700 hover:text-gray-900",
-    contacts: "ml-1",
+    contacts: "md:ml-1",
 };
 
 export default Header;

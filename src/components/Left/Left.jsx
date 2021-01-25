@@ -14,7 +14,7 @@ const Left = () => {
 
 //! styles
 const { left } = {
-    left: "w-3/5 flex flex-col space-y-10",
+    left: "w-full md:w-3/5 flex flex-col space-y-10",
 };
 
 export default Left;

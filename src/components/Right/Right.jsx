@@ -16,7 +16,7 @@ const Right = () => {
 
 //! styles
 const { right } = {
-    right: "w-2/6 flex flex-col space-y-10",
+    right: "w-full md:w-2/6 flex flex-col space-y-10",
 };
 
 export default Right;

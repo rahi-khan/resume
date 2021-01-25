@@ -20,8 +20,8 @@ const Index = () => (
 
 //! styles
 const { container, main } = {
-    container: "container mx-auto py-10 px-20 flex flex-col space-y-20",
-    main: "flex justify-between",
+    container: "lg:container lg:mx-auto py-10 px-4 lg:px-20 flex flex-col space-y-20",
+    main: "flex flex-col space-y-14 md:space-y-0 md:flex-row md:justify-between",
 };
 
 export default Index;
