@@ -80,7 +80,8 @@ const { contactNav, navItem, title, subtitle, contacts, headerContainer } = {
     headerContainer: "flex flex-col space-y-4 md:space-y-3",
     title: "text-blue-500 text-7xl font-bold tracking-wide",
     subtitle: "text-2xl font-semibold text-gray-800",
-    contactNav: "flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-8",
+    contactNav:
+        "flex flex-col md:flex-row md:justify-between md:items-center space-y-2 md:space-y-0",
     navItem: "flex items-center text-gray-700 hover:text-gray-900",
     contacts: "md:ml-1",
 };

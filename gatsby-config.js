@@ -52,8 +52,8 @@ module.exports = {
         {
             resolve: "gatsby-plugin-manifest",
             options: {
-                name: `Resume`,
-                short_name: `Resume`,
+                name: `Rahi Khan's Resume`,
+                short_name: `Rahi Khan's Resume`,
                 description: `Rahi Khan's Resume`,
                 lang: `en`,
                 start_url: `/`,
