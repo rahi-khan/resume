@@ -5,10 +5,7 @@ import Projects from "./Projects";
 const Left = () => {
     //! Render left sidebar UI
     return (
-        <div
-            className={left}
-            // style={{ border: "2px solid cyan" }}
-        >
+        <div className={left}>
             <Experiences />
             <Projects />
         </div>
@@ -17,7 +14,7 @@ const Left = () => {
 
 //! styles
 const { left } = {
-    left: "w-3/5 flex flex-col space-y-8",
+    left: "w-3/5 flex flex-col space-y-10",
 };
 
 export default Left;

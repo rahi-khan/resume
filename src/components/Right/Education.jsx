@@ -17,17 +17,14 @@ const Education = () => {
 
     //! Render Education UI
     return (
-        <div
-            className={eduContainer}
-            // style={{ border: "2px solid #e05a07" }}
-        >
+        <div className={eduContainer}>
             <h1 className={title}>Education</h1>
 
             {data.dataJson.education.map(arr => (
                 <div className={eduBucket}>
-                    <h1 className="font-semibold text-base text-gray-900">{arr.school}</h1>
-                    <h2 className="text-gray-600 text-sm font-semibold">{arr.date}</h2>
-                    <p className="text-gray-600">{arr.certificate}</p>
+                    <h1 className="text-gray-800 font-bold text-lg">{arr.school}</h1>
+                    <h2 className="text-gray-600 text-base font-semibold">{arr.date}</h2>
+                    <p className="text-gray-600 text-sm">{arr.certificate}</p>
                 </div>
             ))}
         </div>
@@ -37,7 +34,7 @@ const Education = () => {
 //! styles
 const { eduContainer, title, eduBucket } = {
     eduContainer: "flex flex-col space-y-4",
-    title: "text-blue-500 text-xl font-bold tracking-wide",
+    title: "text-blue-500 text-2xl font-bold tracking-wide",
     eduBucket: "flex flex-col space-y-0.5",
 };
 

@@ -16,15 +16,12 @@ const Skills = () => {
 
     //! Render Skills UI
     return (
-        <div 
-        className={skillsContainer} 
-        // style={{ border: "2px solid #e05a07" }}
-        >
+        <div className={skillsContainer}>
             <h1 className={title}>Skills</h1>
 
             {data.dataJson.skillset.map(arr => (
                 <div className={skillsBucket}>
-                    <h1 className="font-semibold text-base text-gray-900">{arr.name}</h1>
+                    <h1 className="text-gray-800 font-bold text-lg">{arr.name}</h1>
                     <p className="text-gray-600 text-sm">{arr.skills}</p>
                 </div>
             ))}
@@ -35,7 +32,7 @@ const Skills = () => {
 //! styles
 const { skillsContainer, title, skillsBucket } = {
     skillsContainer: "flex flex-col space-y-4",
-    title: "text-blue-500 text-xl font-bold tracking-wide",
+    title: "text-blue-500 text-2xl font-bold tracking-wide",
     skillsBucket: "flex flex-col space-y-0.5",
 };
 

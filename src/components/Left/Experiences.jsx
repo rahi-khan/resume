@@ -18,20 +18,17 @@ const Experiences = () => {
 
     //! Render Experience UI
     return (
-        <div
-            className={expContainer}
-            // style={{ border: "2px solid green" }}
-        >
+        <div className={expContainer}>
             <h1 className={title}>Relevant Experiences</h1>
 
             {data.dataJson.experiences.map(jobContainer => (
                 <div className={job}>
-                    <h1 className="font-semibold text-base">
-                        <span className="text-gray-900">{jobContainer.jobTitle}</span> @{" "}
-                        <span className="text-gray-500">{jobContainer.company}</span>
+                    <h1>
+                        <span className={jobTitle}>{jobContainer.jobTitle}</span>
+                        <span className={company}> @ {jobContainer.company}</span>
                     </h1>
 
-                    <h2 className="text-gray-600 text-sm font-semibold">{jobContainer.date}</h2>
+                    <h2 className={date}>{jobContainer.date}</h2>
 
                     <ul className={jobDesc}>
                         {jobContainer.jobDesc.map(desc => (
@@ -45,11 +42,14 @@ const Experiences = () => {
 };
 
 //! styles
-const { expContainer, title, job, jobDesc } = {
-    expContainer: "flex flex-col space-y-7",
-    title: "text-blue-500 text-xl font-bold tracking-wide",
-    job: "flex flex-col space-y-1",
-    jobDesc: "list-disc list-inside text-gray-600",
+const { expContainer, title, job, jobTitle, company, date, jobDesc } = {
+    expContainer: "flex flex-col space-y-4",
+    title: "text-blue-500 text-2xl font-bold tracking-wide",
+    job: "flex flex-col space-y-1 pb-4",
+    jobTitle: "text-gray-800 font-bold text-lg",
+    company: "text-gray-500 font-semibold text-lg",
+    date: "text-gray-600 text-base font-semibold",
+    jobDesc: "list-disc list-inside text-gray-600 text-sm",
 };
 
 export default Experiences;

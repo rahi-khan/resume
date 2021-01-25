@@ -11,7 +11,6 @@ module.exports = {
             disc: "disc",
             decimal: "decimal",
             square: "square",
-        
         },
         fontFamily: {
             pops: ["Poppins", "sans-serif"],

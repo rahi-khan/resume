@@ -1,4 +1,5 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import { IconContext } from "react-icons";
 import { HiOutlineMail } from "react-icons/hi";
 import { HiOutlinePhone } from "react-icons/hi";
@@ -6,15 +7,28 @@ import { HiOutlineHome } from "react-icons/hi";
 import { FiGithub } from "react-icons/fi";
 
 const Header = () => {
+    //! Query page data
+    const data = useStaticQuery(graphql`
+        {
+            dataJson {
+                name
+                job
+                email
+                phone
+                personalSite
+                github
+            }
+        }
+    `);
+
+    const { name, job, email, phone, personalSite, github } = data.dataJson;
+
     //! Render Header UI
     return (
-        <div
-            className={headerContainer}
-            // style={{ border: "2px solid red" }}
-        >
-            <h1 className={title}>Rahi Khan</h1>
+        <div className={headerContainer}>
+            <h1 className={title}>{name}</h1>
 
-            <h4 className={subtitle}>Front-End Developer</h4>
+            <h4 className={subtitle}>{job}</h4>
 
             <ul className={contactNav}>
                 <IconContext.Provider value={{ size: "1.3rem" }}>
@@ -26,12 +40,12 @@ const Header = () => {
                             className={navItem}
                         >
                             <HiOutlineMail />
-                            <span className={contacts}>rahikhan360@gmail.com</span>
+                            <span className={contacts}>{email}</span>
                         </a>
                     </li>
                     <li className={navItem}>
                         <HiOutlinePhone />
-                        <span className={contacts}>+8801873146332</span>
+                        <span className={contacts}>{phone}</span>
                     </li>
                     <li>
                         <a
@@ -41,7 +55,7 @@ const Header = () => {
                             className={navItem}
                         >
                             <HiOutlineHome />
-                            <span className={contacts}>rahikhan.gtsb.io</span>
+                            <span className={contacts}>{personalSite}</span>
                         </a>
                     </li>
                     <li>
@@ -52,7 +66,7 @@ const Header = () => {
                             className={navItem}
                         >
                             <FiGithub />
-                            <span className={contacts}>github.com/rahi-khan</span>
+                            <span className={contacts}>{github}</span>
                         </a>
                     </li>
                 </IconContext.Provider>
@@ -65,9 +79,9 @@ const Header = () => {
 const { contactNav, navItem, title, subtitle, contacts, headerContainer } = {
     headerContainer: "flex flex-col space-y-3",
     title: "text-blue-500 text-7xl font-bold tracking-wide",
-    subtitle: "text-2xl font-medium text-gray-800",
+    subtitle: "text-2xl font-semibold text-gray-800",
     contactNav: "flex space-x-8",
-    navItem: "flex items-center text-gray-700 hover:text-gray-900 hover:underline",
+    navItem: "flex items-center text-gray-700 hover:text-gray-900",
     contacts: "ml-1",
 };
 

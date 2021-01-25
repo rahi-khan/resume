@@ -13,12 +13,9 @@ const Interests = () => {
 
     //! Render Interests UI
     return (
-        <div
-            className={interestsContainer}
-            // style={{ border: "2px solid #e05a07" }}
-        >
+        <div className={interestsContainer}>
             <h1 className={title}>Interests</h1>
-            <p className="text-gray-600">{data.dataJson.interests}</p>
+            <p className="text-gray-600 text-sm">{data.dataJson.interests}</p>
         </div>
     );
 };
@@ -26,7 +23,7 @@ const Interests = () => {
 //! styles
 const { interestsContainer, title } = {
     interestsContainer: "flex flex-col space-y-4",
-    title: "text-blue-500 text-xl font-bold tracking-wide",
+    title: "text-blue-500 text-2xl font-bold tracking-wide",
 };
 
 export default Interests;

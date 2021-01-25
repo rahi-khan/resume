@@ -6,10 +6,7 @@ import Interests from "./Interests";
 const Right = () => {
     //! Render right sidebar UI
     return (
-        <div
-            className={right}
-            // style={{ border: "2px solid pink" }}
-        >
+        <div className={right}>
             <Skills />
             <Education />
             <Interests />
@@ -19,7 +16,7 @@ const Right = () => {
 
 //! styles
 const { right } = {
-    right: "w-2/6 flex flex-col space-y-8",
+    right: "w-2/6 flex flex-col space-y-10",
 };
 
 export default Right;

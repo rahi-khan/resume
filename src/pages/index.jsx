@@ -20,7 +20,7 @@ const Index = () => (
 
 //! styles
 const { container, main } = {
-    container: "container mx-auto py-10 px-16 flex flex-col space-y-12",
+    container: "container mx-auto py-10 px-20 flex flex-col space-y-20",
     main: "flex justify-between",
 };
 

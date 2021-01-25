@@ -1,10 +1,11 @@
 {
     "name": "Rahi Khan",
     "location": "Dhaka, Bangladesh",
-    "job": "Front-end Developer",
+    "job": "Front-End Developer",
     "email": "rahikhan360@gmail.com",
     "phone": "+8801873146332",
-    "github": "https://github.com/rahi-khan",
+    "personalSite": "rahikhan.gtsb.io",
+    "github": "github.com/rahi-khan",
     "education": [
         {
             "school": "Rajuk Uttara Model College",
@@ -66,7 +67,7 @@
         {
             "company": "Advanced Software & IT Services LTD",
             "jobTitle": "Freelance Contract",
-            "date": "5th - 17th Dec, 2020",
+            "date": "Dec, 2020",
 
             "jobDesc": [
                 "Developed the official website",
@@ -78,7 +79,7 @@
         {
             "company": "Advanced Software & IT Services LTD",
             "jobTitle": "Freelance Contract",
-            "date": "13th - 20th Aug, 2020",
+            "date": "Aug, 2020",
             "jobDesc": [
                 "Worked on the documentation website",
                 "Used HTML, CSS, Javascript, SASS and Figma for mockup"
